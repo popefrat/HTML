@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+    </title>
+    <style>
+        fieldset {
+            width: 500px;
+            height: 280px;
+            margin: auto;
+            padding: 25px;
+            border: 1px solid;
+            border-radius:5px;
+            
+        }
+    </style>
+</head>
+<body  dir="rtl" style="background-image: url('../תמונות בוקריה/gallery_0015_08.jpg'); background-size: cover; background-attachment: fixed;font-size:20px;opacity:0.9">
+    <form name="order" autocomplete="on" action="סיום ההזמנה.html" target="home">
+        <fieldset>
+            <legend>
+                <b>פרטי המזמין</b>
+            </legend>
+            <b>שם פרטי</b> <input type="text" placeholder="הכנס שם" required="required" id="f_name" /><br /><br /><br />
+            <b>שם משפחה </b><input type="text" placeholder="הכנס שם משפחה" required="required" id="l_name" /> <br /><br /><br />
+            <b>פלאפון </b><input type="text" placeholder="הכנס טלפון" required="required" id="phone" /><br /><br /><br />
+            <b> אימייל</b> <input type="email" placeholder="הכנס מייל" required="required" id="email" /><br />
+            &nbsp;   &nbsp;   &nbsp;  &nbsp;  &nbsp; <b>אישור הזמנה לאימייל הזה</b>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <b>פרטי האשראי</b>
+            </legend>
+            <b>מספר אשראי</b>  <input type="text" placeholder=" הכנס מספר אשראי" maxlength="9" /><br /><br /><br />
+            <b>תוקף כרטיס</b> <input type="text" placeholder="00/00" /><br /><br /><br />
+            <b>שלוש ספרות</b>  <input type="text" maxlength="3" placeholder="cvv" /><br /><br /><br />
+        </fieldset><br />
+        <div align="center">
+            <button type="reset" style="font-size:25px;background-color:black;color:white">איפוס הפרטים</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" style="font-size:25px">לביצוע ההזמנה</button>
+        </div>
+     
+    </form>
+</body>
+</html>
